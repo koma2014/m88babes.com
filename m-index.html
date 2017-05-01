@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link type="image/x-icon" href="http://m88babes.com/favicon.ico" rel="shortcut icon">
+    <link type="image/ico" href="http://m88babes.com/favicon.ico" rel="icon">
+    <title>M88 Babes 2016 Calendar</title>
+    <link href="css/m.styles.css" rel="stylesheet">
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>-->
+ 
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/ie7styles.css" />
+    <![endif]-->
+
+<script src="js/jquery.min.js"></script> 
+<script src="js/m.script.js"></script>
+<script>
+    $(window).on('load resize',function(){
+        if($(window).width() > 760){
+            window.location.replace("index.html");
+        } 
+    });
+</script>
+<script>
+<!--=========== SET LANGAUGE HERE (ex. en, id, cn, etc.. ====================-->
+var $current_language = 0;
+</script>
+    </head>
+
+<body>
+    <div class="nav_menu moving nav_close">
+        <h3>Language</h3>
+        <ul class="language_list">
+          <li id="lang_en" class="active_lang" title="English"><img src="images/icon_language_en.png" alt="English"><p>English</p></li>
+          <li id="lang_cn" class="lang" title="简体中文"><img src="images/icon_language_cn.png" alt="简体中文"><p>简体中文</p></li>
+          <li id="lang_th" class="lang" title="ไทย&lt;"><img src="images/icon_language_th.png" alt="ไทย"><p>ไทย</p></li>
+          <li id="lang_vn" class="lang" title="Tiếng Việt"><img src="images/icon_language_vn.png" alt="Tiếng Việt"><p>Tiếng Việt</p></li>
+          <li id="lang_jp" class="lang" title="日本語"><img src="images/icon_language_jp.png" alt="日本語"><p>日本語</p></li>
+          <li id="lang_id" class="lang" title="Bhs Indonesia"><img src="images/icon_language_id.png" alt="Bhs Indonesia"><p>Bhs Indonesia</p></li>
+          <li id="lang_kh" class="lang" title="Khmer"><img src="images/icon_language_kh.png" alt="Khmer"><p>Khmer</p></li>
+        </ul>
+        <!-- <div id="nav_social">
+            <a class="social_btn social_en social_in display_none" href="https://www.facebook.com/M88.Malaysia" target="_blank" id="btn_social_facebook">Facebook</a>
+            <a class="social_btn social_en social_in display_none" href="https://twitter.com/M88Live" target="_blank" id="btn_social_twitter">Twitter</a>
+
+            <a class="social_btn social_cn display_none" href="http://www.weibo.com/u/1813221187" target="_blank" id="btn_social_sina">微博</a>
+            <a class="social_btn social_cn display_none" href="http://t.163.com/mansion88" target="_blank" id="btn_social_163">网易</a>
+            <a class="social_btn social_cn display_none" href="http://mansion88.t.sohu.com/" target="_blank" id="btn_social_sohu">搜狐</a>
+            <a class="social_btn social_cn display_none" href="http://t.qq.com/mansion001" target="_blank" id="btn_social_tengxun">腾讯</a>
+
+            <a class="social_btn social_id inline_block" href="https://www.facebook.com/m88.indo" target="_blank" id="btn_social_facebook">Facebook</a>
+            <a class="social_btn social_id inline_block" href="https://twitter.com/m88indo" target="_blank" id="btn_social_twitter">Twitter</a>
+            <a class="social_btn social_id inline_block" href="http://websta.me/n/m88indo" target="_blank" id="btn_social_instagram">Instagram</a>
+
+            <a class="social_btn social_th display_none" href="https://www.facebook.com/m88.thai" target="_blank" id="btn_social_facebook">Facebook</a>
+            <a class="social_btn social_th display_none" href="https://twitter.com/m88sb" target="_blank" id="btn_social_twitter">Twitter</a>
+
+            <a class="social_btn social_jp display_none" href="https://www.facebook.com/M88.japan" target="_blank" id="btn_social_facebook">Facebook</a>
+            <a class="social_btn social_jp display_none" href="https://twitter.com/mansion88jp" target="_blank" id="btn_social_twitter">Twitter</a>
+
+            <a class="social_btn social_kh display_none" href="https://www.facebook.com/M88.cambodia" target="_blank" id="btn_social_facebook">Facebook</a>
+            <a class="social_btn social_kh display_none" href="https://twitter.com/M88Live" target="_blank" id="btn_social_twitter">Twitter</a>
+            
+            <a class="social_btn social_vn display_none" href="https://www.facebook.com/mansion.vietnam" target="_blank" id="btn_social_facebook">Facebook</a>
+            <a class="social_btn social_vn display_none" href="https://twitter.com/M88_VIETNAM" target="_blank" id="btn_social_twitter">Twitter</a>
+            <a class="social_btn social_vn display_none" href="http://websta.me/n/m88.vietnam" target="_blank" id="btn_social_instagram">Instagram</a>
+            <a class="social_btn social_vn display_none" href="https://www.youtube.com/watch?v=XUez-5hRwUA&amp;list=UUO59oTxOkebSFmRyO6U2GOA" target="_blank" id="btn_social_youtube">YouTube</a>
+        </div> -->
+        <div id="promoImg">
+            <a class="promo_en" href="https://www.m88sb.com/Main/Register.aspx?lang=en-US" target="_blank"><img src="images/mobile/img_promo_en.jpg" alt="Promo"></a>
+            <a class="promo_in display_none" href="https://www.m88sb.com/Main/Register.aspx?lang=en-IN" target="_blank"><img src="images/mobile/img_promo_in.jpg" alt="Promo"></a>
+            <a class="promo_cn display_none" href="https://www.m88sb.com/Main/Register.aspx?lang=zh-CN" target="_blank"><img src="images/mobile/img_promo_cn.jpg" alt="Promo"></a>
+            <a class="promo_id display_none" href="https://www.m88sb.com/Main/Register.aspx?lang=id-ID" target="_blank"><img src="images/mobile/img_promo_id.jpg" alt="Promo"></a>
+            <a class="promo_th display_none" href="https://www.m88sb.com/Main/Register.aspx?lang=th-TH" target="_blank"><img src="images/mobile/img_promo_th.jpg" alt="Promo"></a>
+            <a class="promo_jp display_none" href="https://www.m88sb.com/Main/Register.aspx?lang=ja-JP" target="_blank"><img src="images/mobile/img_promo_jp.jpg" alt="Promo"></a>
+            <a class="promo_kh display_none" href="https://www.m88sb.com/Main/Register.aspx?lang=km-KH" target="_blank"><img src="images/mobile/img_promo_kh.jpg" alt="Promo"></a>
+            <a class="promo_vn display_none" href="https://www.m88sb.com/Main/Register.aspx?lang=vi-VN" target="_blank"><img src="images/mobile/img_promo_vn.jpg" alt="Promo"></a>
+        </div>
+        <div id="footer">
+        <p id="nav_copy">Copyright 2016 © M88.com | 18+</p>
+        </div>
+    </div>
+    <div class="main_wrapper moving nav_close">
+        <div class="lightbox display_none"><!--=========== START OF LIGHTBOX ====================-->
+            <div class="gallery_wrapper" style="height: auto; max-height: 80%;">
+                <div class="lb_video_container display_none"><iframe title="YouTube video player" class="youtube-player" width="320" height="180" style="width: 715px; height: 402.188px;"></iframe></div>
+                <div class="lb_img_container"><img src="javascript:void(0)" style="width: 100%; height: auto;"></div>
+                <div class="close_btn"><img src="images/mobile/btn_close_m.png"></div>
+                <div class="lb_thumbs_wrapper">
+                    <div id="tn_01" class="lb_tn_btn btn_active"></div>
+                    <div id="tn_02" class="lb_tn_btn"></div>
+                    <div id="tn_03" class="lb_tn_btn"></div>
+                    <div id="tn_04" class="lb_tn_btn"></div>
+                    <div id="tn_05" class="lb_tn_btn"></div>
+                    <div id="tn_vid" class="lb_tn_btn btn_vid"></div>
+                </div>
+            </div>
+        </div><!--=========== END OF LIGHTBOX ====================-->
+        <div class="img_wrapper">
+            <div id="january" class="img_container display_none"><img src="images/mobile/gallery/january2016_1080x1920.jpg"></div>
+            <div id="february" class="img_container display_none"><img src="images/mobile/gallery/february2016_1080x1920.jpg"></div>
+            <div id="march" class="img_container display_none"><img src="images/mobile/gallery/march2016_1080x1920.jpg"></div>
+            <div id="april" class="img_container display_none"><img src="images/mobile/gallery/april2016_1080x1920.jpg"></div>
+            <div id="may" class="img_container display_none"><img src="images/mobile/gallery/may2016_1080x1920.jpg"></div>
+            <div id="june" class="img_container display_none"><img src="images/mobile/gallery/june2016_1080x1920.jpg"></div>
+            <div id="july" class="img_container display_none"><img src="images/mobile/gallery/july2016_1080x1920.jpg"></div>
+            <div id="august" class="img_container display_none"><img src="images/mobile/gallery/august2016_1080x1920.jpg"></div>
+            <div id="september" class="img_container display_none"><img src="images/mobile/gallery/september2016_1080x1920.jpg"></div>
+            <div id="october" class="img_container display_none"><img src="images/mobile/gallery/october2016_1080x1920.jpg"></div>
+            <div id="november" class="img_container display_none"><img src="images/mobile/gallery/november2016_1080x1920.jpg"></div>
+            <div id="december" class="img_container  display_none"><img src="images/mobile/gallery/december2016_1080x1920.jpg"></div>
+        </div>
+    
+        <div class="header">
+                <!-- <div class="logo"><a href="http://m88babes.com/calendar/m.index.html#"><img src="images/mobile/img_logo.png" alt="M88 Babes Logo" title="Back to M88 Homepage"></a></div> -->
+                <div class="menu_btn btn"><img src="images/mobile/icon_menu.png"></div>
+        </div>
+
+        <div class="navbar">
+            <h1 class="month_h">December</h1>
+            <a id="download_btn" class="nav_btn btn display_none" data-ajax="false" download=""><img src="images/mobile/icon_download.png"></a>
+            <div id="gallery_btn" class="nav_btn btn display_none"><img src="images/mobile/icon_gallery.png"></div>
+        </div>
+    </div><!--=========== END OF MAIN WRAPPER ====================-->
+</body>
+</html>
